@@ -1,10 +1,10 @@
+import { DataSection } from "./components/DataSection";
 
 function App() {
-  return (
-    <>
-      hi
-    </>
-  )
+  return <div className="p-3">
+    <DataSection/>
+  </div>
 }
+
 
 export default App
