@@ -1,26 +1,9 @@
+import { VALUES } from "../elements"
 import { TableElement } from "./TableElement"
 
 export const Table = () => {
-    const elements = [{
-        orderId : '#281209',
-        status : 'Successful',
-        transactionId : 'TRX123456',
-        refundDate : 'Today, 8:45 PM',
-        orderAmount : '1125.00' 
-    },{
-        orderId : '#281209',
-        status : 'Successful',
-        transactionId : 'TRX123456',
-        refundDate : 'Today, 8:45 PM',
-        orderAmount : '1125.00' 
-    },{
-        orderId : '#281209',
-        status : 'Processing',
-        transactionId : 'TRX123456',
-        refundDate : 'Today, 8:45 PM',
-        orderAmount : '1125.00' 
-    }] 
-	
+    const elements = VALUES
+    
     return <>
         <div class="relative overflow-x-auto rounded">
             <table class="w-full text-xs text-left rtl:text-right text-gray-600">
