@@ -10,7 +10,7 @@ export const Input = ({
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                     </svg>
                 </div>
-                <input type="search" id="default-search" class="block w-full p-1 ps-10 text-sm text-gray-500 border border-gray-300 rounded-sm placeholder-gray-400" placeholder={placeHolder} />
+                <input type="search" id="default-search" class="block w-full p-2 ps-10 text-gray-500 border border-gray-300 rounded-sm placeholder-gray-400" placeholder={placeHolder} />
             </div>
         </form>
     </>

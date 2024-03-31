@@ -6,9 +6,9 @@ import { TopBar } from "./components/TopBar";
 function App() {
     return <div className="bg-gray-50 flex">
         <SideBar />
-        <div className="w-full md:ml-44">
+        <div className="w-full md:ml-52">
             <TopBar />
-            <div className="pt-14 md:pt-16">  
+            <div className="mt-20 md:mt-22">  
                 <MainBody />
             </div>
         </div>

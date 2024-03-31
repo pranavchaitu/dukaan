@@ -6,22 +6,22 @@ export const Table = () => {
     
     return <>
         <div class="relative overflow-x-auto rounded">
-            <table class="w-full text-xs text-left rtl:text-right text-gray-600">
+            <table class="w-full text-md text-left rtl:text-right text-gray-600">
                 <thead class="bg-gray-200">
                     <tr>
-                        <th scope="col" class="pl-2 py-2">
+                        <th scope="col" class="pl-3 py-3">
                             Order ID
                         </th>
-                        <th scope="col" class="pl-2 py-2">
+                        <th scope="col" class="pl-3 py-3">
                             Status
                         </th>
-                        <th scope="col" class="pl-2 py-2">
+                        <th scope="col" class="pl-3 py-3">
                             Transaction ID	
                         </th>
-                        <th scope="col" class="pl-2 py-2">
+                        <th scope="col" class="pl-3 py-3">
                             Refund Date
                         </th>
-                        <th scope="col" class="px-2 py-2 text-right">
+                        <th scope="col" class="px-3 py-3 text-right">
                             Order Amount
                         </th>
                     </tr>
