@@ -4,7 +4,7 @@ export const BlueRevenueCard = ({
     day,
     time
 }) => {
-    return <div className="text-white bg-sky-600 rounded">
+    return <div className="text-white bg-sky-600 rounded-md">
         <div className="hover:bg-sky-800 rounded-t px-3 py-4">
             <div className="flex items-center">
                 <div className="text-sm mr-2">

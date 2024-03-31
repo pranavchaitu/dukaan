@@ -1,8 +1,8 @@
 import { Input } from "./InputBox";
 
 export function TopBar() {
-    return <div className="flex justify-between p-3 gap-10 items-center h-12 bg-white">
-        <div className="flex gap-1">
+    return <div className="flex justify-between p-3 gap-6 items-center h-12 bg-white">
+        <div className="flex gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>

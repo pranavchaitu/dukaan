@@ -1,5 +1,5 @@
 import { CardSection } from "./CardSection"
-import { Table } from "./Table"
+import { DataSection } from "./DataSection"
 export function MainBody() {
     return <main className="px-3 py-2 md:px-5">
         <div className="flex justify-between items-center">
@@ -34,11 +34,16 @@ export function MainBody() {
             </div>
         </div>
         <div className="mt-6">
-            <Table />
+            <DataSection />
+        </div>
+        <div className="mt-3 flex items-center justify-center">
+            <div className="text-gray-500 text-sm">
+                <h1>Made with passion {'<3'},</h1>
+                <h1>Pranav.</h1>
+            </div>
         </div>
     </main>
 }
-
 
 function ButtonWithCount({
     name,

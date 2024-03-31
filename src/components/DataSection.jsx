@@ -1,7 +1,7 @@
 import { Table } from "./Table"
 import { Input } from "./InputBox"
 export const DataSection = () => {
-    return <div className="shadow p-3">
+    return <div className="bg-white rounded p-3">
         <div className="flex justify-between mb-2">
             <div>
                 <Input placeHolder={"Order ID or transactions ID"}/>
