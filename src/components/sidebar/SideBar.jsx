@@ -10,7 +10,7 @@ export const SideBar = () => {
             <TopSection />
             <div>
                 {DATA.map((b,i) => <>
-                    <BarElement title={b.title} svg={b.svg}/>
+                    <BarElement key={i} title={b.title} svg={b.svg}/>
                 </>)}
             </div>
             <BottomSection />
