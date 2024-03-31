@@ -37,10 +37,7 @@ export function MainBody() {
             <DataSection />
         </div>
         <div className="mt-3 flex items-center justify-center">
-            <div className="text-gray-500 text-sm">
-                <h1>Made with passion {'<3'},</h1>
-                <h1>Pranav.</h1>
-            </div>
+            <Signature />
         </div>
     </main>
 }
@@ -54,4 +51,13 @@ function ButtonWithCount({
             {name} ({count})
         </button>
     </> : null
+}
+
+function Signature() {
+    return <>
+        <div className="text-gray-500 text-sm">
+            {'𝙼𝚊𝚍𝚎 𝚠𝚒𝚝𝚑 𝚙𝚊𝚜𝚜𝚒𝚘𝚗 <𝟹,'} <br/>
+            {'𝙿𝚛𝚊𝚗𝚊𝚟.'}
+        </div>
+    </>
 }

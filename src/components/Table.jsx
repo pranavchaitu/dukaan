@@ -27,7 +27,7 @@ export const Table = () => {
                     </tr>
                 </thead>
                 <tbody className=" whitespace-nowrap">
-                    {elements.map(t => <TableElement {...t}/>)}
+                    {elements.map((t,i) => <TableElement {...t} key={i}/>)}
                 </tbody>
             </table>
         </div>
