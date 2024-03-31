@@ -12,7 +12,7 @@ export const BottomSection = () => {
                         <p className="text-xs text-gray-300">
                             Available Credits
                         </p> 
-                        <p className="text-gray-50 text-sm">
+                        <p className="text-gray-50 text-md">
                             224.10
                         </p>
                     </div>
