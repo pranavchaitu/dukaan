@@ -6,12 +6,14 @@ import { TopSection } from "./TopSection"
 
 export const SideBar = () => {
     return <div className="text-white bg-slate-800 w-52 fixed top-0 bottom-0 hidden md:block">
-        <div className="flex flex-col justify-between h-full ">
-            <TopSection />
+        <div className="flex flex-col justify-between h-full">
             <div>
-                {DATA.map((b,i) => <>
-                    <BarElement key={i} title={b.title} svg={b.svg}/>
-                </>)}
+                <TopSection />
+                <div>
+                    {DATA.map((b,i) => <>
+                        <BarElement key={i} title={b.title} svg={b.svg}/>
+                    </>)}
+                </div>
             </div>
             <BottomSection />
         </div>

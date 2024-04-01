@@ -1,7 +1,7 @@
 import { Input } from "./InputBox";
 
 export function TopBar() {
-    return <div className="flex justify-between p-8 gap-6 items-center h-12 bg-white border border-gray-200 fixed z-20 right-0 left-0 md:left-52">
+    return <div className="flex justify-between px-4 py-8 gap-6 items-center h-12 bg-white border border-gray-200 fixed z-20 right-0 left-0 md:left-52">
         <div className="flex gap-3 items-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 block md:hidden">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
